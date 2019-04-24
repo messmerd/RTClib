@@ -12,7 +12,6 @@
 #elif defined(ARDUINO_SAM_DUE)
  #define PROGMEM
  #define pgm_read_byte(addr) (*(const unsigned char *)(addr))
- #define Wire Wire1
 #endif
 
 
